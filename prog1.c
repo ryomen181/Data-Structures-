@@ -21,7 +21,7 @@ printf("Enter the position to enter the element");
 scanf("%d",&pos);
 printf("Enter the element to be entered:\n");
 scanf("%d",&elem);
-for(i=n-1;i>=pos;i--){  //Loop starts from last element and the array moves backwards 
+for(i=n-1;i>=pos;i--){  //Loop starts from last element and the array moves backwards as we are decrementing (i--)
 	a[i+1]=a[i];
 }
 a[pos]=elem; //Placing new element in the position
