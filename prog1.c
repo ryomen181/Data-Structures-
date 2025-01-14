@@ -1,4 +1,13 @@
 //Program on array operations. Switch case is used to make this program menu driven 
+/* Question:Design, Develop and Implement a menu driven program in C for the following Array
+operations
+a. Creating Array of N Integer elements.
+b. Display of Array elements with suitable headings.
+c. Inserting an element (ELEM) at a given valid position (POS).
+d. Deleting an element at a given valid position (POS).
+e. Exit.
+Support the program with functions for each of the above operations.*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int i,elem,a[10],pos,n;//globally declared variables
