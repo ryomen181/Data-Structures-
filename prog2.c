@@ -3,7 +3,7 @@ a. Read a Main String (STR), a Pattern String (PAT) and a Replace String (REP).
 b. Perform Pattern Matching Operation: Find and Replace all occurrences of PATin
 STR with
 REP if PAT exists in STR. Repost suitable messages in case PAT does not exist in STR.
-Support the program with functions for each of the above operations. Don’t use builtin functions.
+Support the program with functions for each of the above operations. Donâ€™t use builtin functions.
 */
 //This program is used for string operations
 #include<stdio.h>
@@ -34,7 +34,6 @@ int i,j,c,m,k,flag=0;
 			i=0;
 		}
 	}
-	
     }
     void main(){                             //Main function
     	printf("Enter the main string:\n");  //Main string
