@@ -1,5 +1,5 @@
 //Menu driven program in C for stack operations: push()&pop()
-//You face with the stack underflow condition when you try to pop an element after popping the last element in the stack
+//You face the stack underflow condition when you try to pop an element after popping the last element in the stack
 //You face the Stack overflow condition when you try to push an element onto the stack when the stack is full
 #include<stdio.h>
 #include<stdlib.h>
