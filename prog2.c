@@ -19,7 +19,7 @@ int i,j,c,m,k,flag=0;
 			i++;                        //increment i and m simaltaneously 
 			m++;
 			if(pat[i]=='\0'){           //If pattern string reaches the null character, it means the string is fully matched
-				flag=1;                 //declare flag as 1 to confirm and print the final string
+				flag=1;                 //declare flag as 1 to confirm and print the final string later on
 				for(k=0;rep[k]!='\0';j++,k++) //k=0 indicating to start from first character of rep string and contiuing till null character is reached
 				ans[j]=rep[k];                //copy the replacement string to the answer array
 				i=0;                          //reset i(pattern position) and adjust values of c and m to continue searching for rest of the string
